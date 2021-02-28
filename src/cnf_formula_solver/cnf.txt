@@ -1,0 +1,8 @@
+(A v B) ^ C
+(nA v B) ^ (nA v C)
+A ^ (B v D) ^ (B v E)
+(A v nB v nC) ^ (nD v E v F)
+(A v nB) ^ B ^ nA ^ (nA v B)
+(Y v Z) ^ nY ^ (nY v Z) ^ (nY v nZ)
+(x1 v x3 v x4) ^ (nx1 v x3) ^ (nx1 v x4 v nx2) ^ nx3 ^ (x2 v nx4)
+(x1 v x2 v x3) ^ (nx1 v x3) ^ (nx2 v x3 v nx4) ^ nx1 ^ (x2 v nx4) ^ (x5 v x6) ^ nx6
